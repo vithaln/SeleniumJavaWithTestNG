@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="keyword1">
+	
+	<parameter name="keyword" value="Selenuim"></parameter>
+	
+		<classes>
+			<class
+				name="com.selenium.code.TestNGDemo.parameters.TestngParameterGoogleSearch" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="keyword2">
+	
+	<parameter name="keyword" value="Java"></parameter>
+	
+		<classes>
+			<class
+				name="com.selenium.code.TestNGDemo.parameters.TestngParameterGoogleSearch" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

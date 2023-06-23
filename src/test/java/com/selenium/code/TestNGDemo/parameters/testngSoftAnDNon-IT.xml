@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="softwareCompany">
+		<parameter name="softwareCompany" value="Shvintech"></parameter>
+		<classes>
+			<class
+				name="com.selenium.code.TestNGDemo.parameters.SoftwareCompany" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Non-IT Company">
+		<parameter name="non-IT" value="TATA Motors"></parameter>
+		<classes>
+			<class
+				name="com.selenium.code.TestNGDemo.parameters.Non_IT_Company" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

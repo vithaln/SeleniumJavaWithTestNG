@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FunctionalTestSuite">
+  <test thread-count="5" name="FunctionalTest">
+    <classes>
+      <class name="com.selenium.code.TestNGDemo.batchTesting.PaymentTest"/>
+      <class name="com.selenium.code.TestNGDemo.batchTesting.ProductPageTest"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+</suite> <!-- FunctionalTestSuite -->

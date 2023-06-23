@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MasterSuite" >
+
+	<suite-files>
+		<suite-file path="D:\New folder\JAVA Exploring\selenium\TestNGDemo\src\test\java\com\selenium\code\TestNGDemo\batchTesting\SanityTest.xml" />
+		<suite-file path="D:\New folder\JAVA Exploring\selenium\TestNGDemo\src\test\java\com\selenium\code\TestNGDemo\batchTesting\FunctionalTestSuite.xml"  />
+	</suite-files>
+
+
+</suite>

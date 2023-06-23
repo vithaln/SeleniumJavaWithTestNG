@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="i" value="20"></parameter>
+<parameter name="j" value="10"></parameter>
+ <test thread-count="5" name="Test">
+		<classes>
+		
+			<class
+				name="com.selenium.code.TestNGDemo.parameters.TestNGParameterDemo" />
+					</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
